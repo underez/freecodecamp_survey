@@ -1,0 +1,94 @@
+body {
+    display: block;
+    background: grey;
+    background-color: rgb(216, 165, 216,);
+    background-image: linear-gradient(360deg, rgba(243, 202, 202,0.1), rgba(228, 218, 218,1)), url("https://images.pexels.com/photos/5428150/pexels-photo-5428150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    background-position: no-repeat;
+    margin: auto;
+    }
+    
+    fieldset {
+        display: block;
+        margin-left: 600px;
+        margin-right: 600px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-color: rgb(237, 219, 206);
+        border-radius: 2%;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #survey-form {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    }
+    h1,p {
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        display: block;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    form {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    
+    #name { 
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #lastname {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;;
+        
+    }
+    #email {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #number {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #telephone {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #dropdown {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #enroll {
+        border: 1px solid white;
+        height: 25px;
+        width: 400px;
+    }
+    #textarea {
+        height: 100px;
+        width: 500px;
+    }
+    #submit {
+        height: 40px;
+        width: 420px;
+        background-color:aqua;
+        cursor: pointer;
+    }
+    
+    #submit:hover {
+        background-color: rgb(246, 101, 101);
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>English School Survey Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<h1 id="title" name="description">English School Survey Form</h1>
+<p id="description" name="description">Thank you for taking the time to give us feedback</p>
+
+<body>
+    <fieldset>
+        <form id="survey-form">
+            <label id="name-label">Name</label>
+            <br>
+            <input required name="name" id="name" type="text" placeholder="name" />
+            <br>
+            <br>
+            <label id="lastname-label">Last Name</label>
+            <br>
+            <input required name="lastname" id="lastname" type="text" placeholder="lastname">
+            <br>
+            <br>
+            <label id="number-label">Age</label>
+            <br>
+            <input for="age" id="number" require name="age" min="1" max="99" type="number" placeholder="age" />
+            <br>
+            <br>
+            <label id="email-label">Email</label>
+            <br>
+            <input required name="email" id="email" type="email" placeholder="email">
+            <br>
+            <br>
+            <label id="phone-label">Telephone (optional)</label>
+            <br>
+            <input id="telephone" name="telephone" placeholder="telephone" type="text" />
+            <br>
+            <br>
+            <label id="role">Which option best describes you?</label>
+            <select id="dropdown" name="dropdown">
+                <option value="parents">Parents</option>r</option>
+                <option value="students">Students</option>
+                <option value="teachers">Teachers</option>
+            </select>
+            <br>
+            <br>
+            <label id="recommend">Would you recommend English School to your friends and family?</label>
+            <br>
+            <input type="radio" id="recommend" name="recommend" value="yes" />
+        
+            <label for="yes">Yes </label>
+            <br>
+            <input type="radio" id="recommend" name="recommend" value="no" />
+            <label for="no">No</label>
+            <br>
+            <input type="radio" id="recommend" name="recommend" value="maybe" />
+            <label for="maybe">Maybe</label>
+            <br>
+            <br>
+            <label>Which class do you or your child enroll/teach?</label>
+            <br>
+            <select id="enroll" name="enroll">
+                <option value="speaking">Speaking</option>
+                <option value="ielts">IELTS Preparation</option>
+                <option value="toefl">TOEFL Preparation</option>
+                <option value="toeic">TOEIC Preparation</option>
+                <option value="yearlevel">Year Level English</option>
+            </select>
+            <br>
+            <br>
+            <label id="recommend">Which class would you like us to open next? (Select all that apply)</label>
+            <br>
+            <input type="checkbox" id="phonicskids" name="phonicskids" value="phonicskids" />
+            <label for="phonicskids">Phonics for Kids</label>
+            <br>
+            <input type="checkbox" id="phonicsadults" name="phonicsadults" value="phonicsadults" />
+            <label for="phonicsadults">Phonics for Adults</label>
+            <br>
+            <input type="checkbox" id="pronunciation" name="pronunciation" value="pronunciation" />
+            <label for="pronunciation">Pronunciation Masterclass</label>
+            <br>
+            <input type="checkbox" id="Job Interview Preparation" name="jobprep" value="jobprep" />
+            <label for="jobprep">Job Interview Preparation</label>
+            <br>
+            <input type="checkbox" id="business" name="business" value="business" />
+            <label for="business">Business English </label>
+            <br>
+            <br>
+            <label id="suggestion">Any comments or suggestions?</label>
+
+<textarea id="suggestion" name="suggestion" rows="5" cols="50">
+The school should...</textarea>
+            
+            
+            <input type="submit" name="submit" id="submit" />
+        </form>
+    </fieldset>
+</body>
+
+</html>
